@@ -14,5 +14,10 @@ namespace Ubiq.Samples
         {
             NetworkSpawner.Spawn(this, Prefab);
         }
+
+        void Start()
+        {
+            SpawnBasketball();
+        }
     }
 }
